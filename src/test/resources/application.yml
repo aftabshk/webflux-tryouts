@@ -1,0 +1,6 @@
+server:
+  port: 9013
+
+org:
+  props:
+    api-key: dummy-key

@@ -1,0 +1,20 @@
+server:
+  port: 9013
+
+org:
+  props:
+    api-key: original-key
+    new-api-key: ${org.props.api-key}/new-key
+
+#
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        web: info
+#        http:
+#          codec:
+#            json: info
+spring:
+  codec:
+    max-in-memory-size: 4194304
