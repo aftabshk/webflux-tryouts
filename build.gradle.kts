@@ -29,7 +29,7 @@ dependencies {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
 	testImplementation("io.projectreactor:reactor-test")
-	testImplementation("io.kotest:kotest-runner-junit5-jvm:4.1.2")
+	testImplementation("io.kotest:kotest-runner-junit5-jvm:4.4.1")
 	testImplementation("org.junit.platform:junit-platform-runner:1.7.0")
 }
 
