@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb-reactive")
-	implementation("net.logstash.logback:logstash-logback-encoder:6.3")
+	implementation("net.logstash.logback:logstash-logback-encoder:6.6")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
