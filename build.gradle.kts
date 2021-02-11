@@ -30,7 +30,7 @@ dependencies {
 	}
 	testImplementation("io.projectreactor:reactor-test")
 	testImplementation("io.kotest:kotest-runner-junit5-jvm:4.1.2")
-	testImplementation("org.junit.platform:junit-platform-runner:1.7.0")
+	testImplementation("org.junit.platform:junit-platform-runner:1.7.1")
 }
 
 tasks.withType<Test> {
